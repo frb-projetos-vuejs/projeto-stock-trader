@@ -1,0 +1,13 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+}
+
+.fade-enter, .fade-leave-to {
+	opacity: 0;
+}
+
+.fade-enter-active, .fade-leave-active {
+	transition: opacity 0.3s;
+}
